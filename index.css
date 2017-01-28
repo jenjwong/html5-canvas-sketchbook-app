@@ -1,4 +1,16 @@
 body {
   margin: 0;
   padding: 0;
+  cursor: crosshair;
+}
+
+canvas {
+  position: absolute;
+  z-index: -1;
+}
+
+button {
+  margin: 5%;
+  position: absolute;
+  z-index: 1;
 }
